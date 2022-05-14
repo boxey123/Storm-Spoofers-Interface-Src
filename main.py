@@ -47,8 +47,7 @@ if __name__ == "__main__":
                         ║    [6]: Other                ║
                         ║                              ║
                         ╚══════════════════════════════╝
-
     """)
     
-    input('    Enter Here > ')
+    input('     Enter Here > ')
     

@@ -13,8 +13,8 @@ def main():
 
 if __name__ == "__main__":
     random_title2 = secrets.token_urlsafe(25)
-    ctypes.windll.kernel32.SetConsoleTitleW(random_title2)
-   ## ctypes.windll.kernel32.SetConsoleTitleW("Penis Ware")
+   ##ctypes.windll.kernel32.SetConsoleTitleW(random_title2)
+    ctypes.windll.kernel32.SetConsoleTitleW("")
     system('mode con: cols=83 lines=30')
     
     print("""
